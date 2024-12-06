@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll System DB Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Payroll System Database Group 3 Demo</h1>
+        </header>
+
+        <main>
+            <div class="entity-buttons">
+                <button onclick="showEntity('employees')">Employee</button>
+                <button onclick="showEntity('payroll')">Payroll</button>
+                <button onclick="showEntity('deductions')">Deductions</button>
+                <button onclick="showEntity('attendance')">Attendance</button>
+                <button onclick="showEntity('leaves')">Leaves</button>
+            </div>
+
+            <div id="entity-info" class="entity-info">
+                <h2>Click on an entity above to see its details.</h2>
+            </div>
+
+            <div id="db-code" class="db-code">
+                <!-- The DB code will appear here when "Show DB Code" is clicked -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
